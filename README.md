@@ -74,3 +74,28 @@ migration zorunludur.
 ## Bonus
 
 • Benzerlik algoritması için levenshtein distance. 
+
+## Screenshots
+![001_create_company.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F001_create_company.png)
+
+![002_delete_company.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F002_delete_company.png)
+
+![003_find_all_companies.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F003_find_all_companies.png)
+
+![004_update_company.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F004_update_company.png)
+
+![005_create_customer.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F005_create_customer.png)
+
+![006_update_customer.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F006_update_customer.png)
+
+![007_find_customer_by_name.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F007_find_customer_by_name.png)
+
+![008_find_customer_by_number.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F008_find_customer_by_number.png)
+
+![009_find_customers_by_plate.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F009_find_customers_by_plate.png)
+
+### Contacts
+<ul>
+    <li><a href="mailto:lenarsharipov@gmail.com">lenarsharipov@gmail.com</a></li>
+    <li><a href="https://t.me/LenarSharipov" rel="nofollow">telegram</a></li>
+</ul>

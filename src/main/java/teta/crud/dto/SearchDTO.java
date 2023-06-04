@@ -18,8 +18,8 @@ public class SearchDTO {
      *
      * Search modes:
      * 1 - Search by name and surname. Returns List of Subscribers.
-     * 2 - Search by vehicle plate. Returns List of Subscribers.
-     * 3 - Search by subscriber's number. Returns Optional of Subscriber.
+     * 2 - Search by customer's number. Returns Optional of Subscriber.
+     * 3 - Search by vehicle plate. Returns List of Subscribers.
      */
     @Min(value = 1, message = "searchMode cannot be less than 1")
     @Max(value = TOTAL_SEARCH_MODES,
