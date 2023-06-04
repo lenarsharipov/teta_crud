@@ -85,22 +85,31 @@ Start app by starting main method of following class:
 <b>/src/main/java/teta/crud/TetaCrudApplication.java</b>
 
 ## Screenshots
+Save company
 ![001_create_company.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F001_create_company.png)
 
+Delete company by id
 ![002_delete_company.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F002_delete_company.png)
 
+List all companies
 ![003_find_all_companies.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F003_find_all_companies.png)
 
+Update persisted company
 ![004_update_company.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F004_update_company.png)
 
+Save customer
 ![005_create_customer.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F005_create_customer.png)
 
+Update customer
 ![006_update_customer.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F006_update_customer.png)
 
+Search customer by name, surname, company id
 ![007_find_customer_by_name.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F007_find_customer_by_name.png)
 
+Search customer by customer unique number and company id
 ![008_find_customer_by_number.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F008_find_customer_by_number.png)
 
+Search customer by vehicle plate and company id
 ![009_find_customers_by_plate.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F009_find_customers_by_plate.png)
 
 ### Contacts
