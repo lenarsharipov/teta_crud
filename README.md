@@ -75,6 +75,15 @@ migration zorunludur.
 
 • Benzerlik algoritması için levenshtein distance. 
 
+## Start App
+
+Create database with following script using login: postgres, password: password
+<pre>CREATE DATABASE teta_crud;</pre>
+
+Start app by starting main method of following class:
+
+<b>/src/main/java/teta/crud/TetaCrudApplication.java</b>
+
 ## Screenshots
 ![001_create_company.png](src%2Fmain%2Fresources%2Fstatic%2Fscreenshots%2F001_create_company.png)
 
