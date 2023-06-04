@@ -7,6 +7,9 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
+/**
+ * Customer model
+ */
 @Entity
 @Table(name = "customers")
 @Data

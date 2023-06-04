@@ -9,6 +9,9 @@ import teta.crud.model.Customer;
 import java.util.Optional;
 import java.util.List;
 
+/**
+ * Customer model repository
+ */
 @Repository
 @ThreadSafe
 public interface CustomerRepository extends CrudRepository<Customer, Integer> {

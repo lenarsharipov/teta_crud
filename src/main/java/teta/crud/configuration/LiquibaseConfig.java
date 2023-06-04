@@ -6,6 +6,9 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
 
+/**
+ * Liquibase config.
+ */
 @Configuration
 public class LiquibaseConfig {
     @Bean

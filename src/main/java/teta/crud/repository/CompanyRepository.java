@@ -8,6 +8,9 @@ import teta.crud.model.Company;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Company model repository
+ */
 @ThreadSafe
 @Repository
 public interface CompanyRepository extends CrudRepository<Company, Integer> {

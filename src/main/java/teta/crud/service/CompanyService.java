@@ -8,6 +8,9 @@ import teta.crud.model.Company;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Company service
+ */
 @ThreadSafe
 @Repository
 public interface CompanyService {

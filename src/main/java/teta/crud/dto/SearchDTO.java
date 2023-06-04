@@ -6,6 +6,9 @@ import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.*;
 
+/**
+ * SearchDto
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

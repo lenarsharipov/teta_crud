@@ -12,11 +12,15 @@ import teta.crud.service.CompanyService;
 import javax.validation.Valid;
 import java.util.List;
 
+/**
+ * Company controller
+ */
 @RestController
 @RequestMapping("/companies")
 @ThreadSafe
 @AllArgsConstructor
 public class CompanyController {
+
     private final CompanyService companyService;
 
     @PostMapping("/")

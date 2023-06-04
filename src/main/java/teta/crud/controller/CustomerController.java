@@ -13,6 +13,9 @@ import teta.crud.service.SearchService;
 
 import javax.validation.Valid;
 
+/**
+ * Customer controller
+ */
 @RestController
 @RequestMapping("/customers")
 @ThreadSafe

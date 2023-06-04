@@ -5,6 +5,9 @@ import teta.crud.model.Customer;
 
 import java.util.Optional;
 
+/**
+ * Customer Service
+ */
 public interface CustomerService {
     Customer save(CustomerDTO customerDTO);
 

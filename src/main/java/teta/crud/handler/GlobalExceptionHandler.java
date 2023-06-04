@@ -17,6 +17,9 @@ import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
+/**
+ * Exception global handlers
+ */
 @ControllerAdvice
 @Slf4j
 @AllArgsConstructor

@@ -10,8 +10,11 @@ import teta.crud.service.Searcher;
 
 import java.util.List;
 
+/**
+ * Searchers config.
+ */
 @Configuration
-public class AppConfig {
+public class SearcherConfig {
     @Autowired
     private CustomerRepository customerRepository;
 
