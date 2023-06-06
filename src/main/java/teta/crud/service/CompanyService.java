@@ -11,8 +11,6 @@ import java.util.Optional;
 /**
  * Company service
  */
-@ThreadSafe
-@Repository
 public interface CompanyService {
 
     Company save(CompanyDTO companyDTO);
