@@ -1,13 +1,10 @@
-# Spring ile CRUD Backend Uygulaması
+# Spring CRUD Backend Application
 
-## Özet
+## Summary
 
-Uygulama üzerinde aboneler ve firmalar oluşturup güncellenebilecek bir REST servis
-tasarlanacak. Abonenin adı soyadı, abone numarası, araç plakası ve firma bilgisi olacaktır. Firma
-alanları firma adı, telefon numarası ve adresi şeklinde kayıt edilecektir. Tabloları oluşturma için
-migration zorunludur.
+A REST service is be designed for creating and updating subscribers and companies within the application. The subscriber will have a name, surname, subscriber number, and vehicle plate information. The company fields will be recorded as company name, phone number, and address. Migration is required for creating the tables.
 
-## Kullanılan Teknolojiler
+## Technologies Used
 
 <ul>
     <li>Spring Boot</li>
@@ -16,49 +13,48 @@ migration zorunludur.
 </ul>
 
 
-## Endpointler ve İçerikler
+## Endpoints and Contents
 
 <ul>
-    <li>Firma Kaydetme (Endpoint)
+    <li>Save Company (Endpoint)
         <ul>
-            <li>Firma Adı</li>
-            <li>Telefon Numarası</li>
-            <li>Adres Bilgisi</li>
+            <li>Company Name</li>
+            <li>Phone Number</li>
+            <li>Address Information</li>
         </ul>
     </li>
-    <li>Firma Güncelleme (Endpoint)
+    <li>Update Company (Endpoint)
         <ul>
-            <li>Firma Adı</li>
-            <li>Telefon Numarası</li>
-            <li>Adres Bilgisi</li>
+            <li>Company Name</li>
+            <li>Phone Number</li>
+            <li>Address Information</li>
         </ul>
     </li>
-    <li>Firma Silme (Endpoint)</li>
-    <li>Firma Listeleme (Endpoint)</li>
-    <li>Abone Ekleme (Endpoint)
+    <li>Delete Company (Endpoint)</li>
+    <li>List Companies (Endpoint)</li>
+    <li>Add Subscriber (Endpoint)
         <ul>
-            <li>Adı</li>
-            <li>Soyadı</li>
-            <li>Abone Numarası</li>
-            <li>Araç Plakası</li>
-            <li>Firma ID</li>
+            <li>Name</li>
+            <li>Surname</li>
+            <li>Subscriber Number</li>
+            <li>Vehicle Plate</li>
+            <li>Company ID</li>
         </ul>
     </li>
-    <li>Abone Güncelleme (Endpoint)
+    <li>Update Subscriber (Endpoint)
         <ul>
-            <li>Adı</li>
-            <li>Soyadı</li>
-            <li>Abone Numarası</li>
-            <li>Araç Plakası</li>
-            <li>Firma ID</li>
+            <li>Name</li>
+            <li>Surname</li>
+            <li>Subscriber Number</li>
+            <li>Vehicle Plate</li>
+            <li>Company ID</li>
         </ul>
     </li>
-    <li>Abone Arama (Endpoint)
+    <li>Search Subscriber (Endpoint)
         <ul>
-            <li>Arama ad soyad, abone numarası veya araç plakası üzerinden yapılacak</li>
-            <li>Araç plakası aramasında tam eşleşme olmasada benzer plakalı aboneler listelenecektir.</li>
-            <li>Örneğin abonenin araç plakası 06TETA123. Arama yapılırken alttaki plakalar
-                girildiğinde sonuç yine gösterilecek
+            <li>Search can be performed based on name, subscriber number, or vehicle plate.</li>
+            <li>Even if there is no exact match in the vehicle plate search, subscribers with similar plates will be listed.</li>
+            <li>For example, if the subscriber's vehicle plate is 06TETA123, when the following plates are entered, the result will still be displayed:
                 <ul>
                     <li>06TET123</li>
                     <li>06TETA1231</li>
@@ -66,14 +62,14 @@ migration zorunludur.
                     <li>06ETA123</li>
                 </ul>
             </li>
-            <li>Abone araması yapılırken her firma kendi abonelerini görüntüleyebilecek</li>
+            <li>When searching for subscribers, each company can view its own subscribers.</li>
         </ul>
     </li>
 </ul>
 
 ## Bonus
 
-• Benzerlik algoritması için levenshtein distance. 
+• Levenshtein distance for similarity algorithm. 
 
 ## Start App
 
